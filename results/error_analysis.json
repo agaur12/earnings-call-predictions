@@ -1,0 +1,500 @@
+{
+  "winner": "TF-IDF + naive Bayes",
+  "test_macro_f1_gain_vs_majority_ci95": [
+    0.041677645014471985,
+    0.11438704935287079
+  ],
+  "val_ap_negative_bootstrap_sd": 0.0319999158796178,
+  "top_terms_toward_miss": [
+    [
+      "targa",
+      -7.646325307069965
+    ],
+    [
+      "mgp",
+      -7.3126532433069755
+    ],
+    [
+      "fitments",
+      -7.260610583869758
+    ],
+    [
+      "pgp",
+      -7.191052992100319
+    ],
+    [
+      "agi",
+      -7.174839016643277
+    ],
+    [
+      "badlands",
+      -7.102611403598209
+    ],
+    [
+      "interlayers",
+      -7.019289382737419
+    ],
+    [
+      "perrysburg",
+      -7.010620152094123
+    ],
+    [
+      "tristan",
+      -7.003678064835382
+    ],
+    [
+      "firstsolar",
+      -6.998163442140481
+    ],
+    [
+      "widmar",
+      -6.998163442140481
+    ],
+    [
+      "inlet",
+      -6.992400733064516
+    ],
+    [
+      "smelting",
+      -6.955478934678391
+    ],
+    [
+      "ofs",
+      -6.904116337438291
+    ],
+    [
+      "cte",
+      -6.844437192117843
+    ],
+    [
+      "mandalay",
+      -6.835965352798208
+    ],
+    [
+      "murren",
+      -6.796027278771845
+    ],
+    [
+      "soi",
+      -6.778172203083161
+    ],
+    [
+      "rgp",
+      -6.731437143138431
+    ],
+    [
+      "devco",
+      -6.715486220847005
+    ],
+    [
+      "spiro",
+      -6.692324158367155
+    ],
+    [
+      "lad",
+      -6.692324158367155
+    ],
+    [
+      "hornbuckle",
+      -6.677719467763733
+    ],
+    [
+      "stefan",
+      -6.65561444406228
+    ],
+    [
+      "northfield",
+      -6.621256606472482
+    ]
+  ],
+  "top_terms_toward_beat": [
+    [
+      "dram",
+      6.1343334952211475
+    ],
+    [
+      "paypal",
+      6.03719813742287
+    ],
+    [
+      "biologics",
+      5.93483953601312
+    ],
+    [
+      "jet",
+      5.895357397357037
+    ],
+    [
+      "foundry",
+      5.894038278309427
+    ],
+    [
+      "biotech",
+      5.8859669174962725
+    ],
+    [
+      "toni",
+      5.853140486308952
+    ],
+    [
+      "shannon",
+      5.833455214902562
+    ],
+    [
+      "gts",
+      5.766780664152014
+    ],
+    [
+      "ebay",
+      5.742828924498724
+    ],
+    [
+      "wan",
+      5.729160188963034
+    ],
+    [
+      "nanometer",
+      5.6885093717599915
+    ],
+    [
+      "tumor",
+      5.640590320709586
+    ],
+    [
+      "katy",
+      5.615321943444908
+    ],
+    [
+      "al",
+      5.6062329608985575
+    ],
+    [
+      "convertible",
+      5.585743176830366
+    ],
+    [
+      "kathy",
+      5.574022721814426
+    ],
+    [
+      "missile",
+      5.566976681904833
+    ],
+    [
+      "bbb",
+      5.5559081870992095
+    ],
+    [
+      "cognitive",
+      5.554894858751229
+    ],
+    [
+      "asv",
+      5.546800438657714
+    ],
+    [
+      "hpc",
+      5.537175945841627
+    ],
+    [
+      "firewall",
+      5.516726853963332
+    ],
+    [
+      "patents",
+      5.507617440422951
+    ],
+    [
+      "amg",
+      5.494435247976627
+    ]
+  ],
+  "errors": [
+    {
+      "type": "false negative (miss predicted as beat)",
+      "call_id": "2168436",
+      "words": 5983,
+      "opening": "Analysts: All right. Hello, everyone. Greetings from the virtual JPMorgan Healthcare Conference. My name is Cory Kasimov. I'm",
+      "top_terms": [
+        [
+          "amg",
+          0.6731
+        ],
+        [
+          "asthma",
+          0.6036
+        ],
+        [
+          "murdo",
+          0.5813
+        ],
+        [
+          "amgen",
+          0.5807
+        ],
+        [
+          "tezepelumab",
+          0.5587
+        ],
+        [
+          "repatha",
+          0.5312
+        ]
+      ]
+    },
+    {
+      "type": "false negative (miss predicted as beat)",
+      "call_id": "2360770",
+      "words": 13759,
+      "opening": "Operator: Ladies and gentlemen, thank you for standing by, and welcome to Lilly's Q2 Earnings Call. [Operator Instructions]",
+      "top_terms": [
+        [
+          "lilly",
+          0.5542
+        ],
+        [
+          "amyloid",
+          0.5472
+        ],
+        [
+          "verzenio",
+          0.511
+        ],
+        [
+          "alzheimer",
+          0.4968
+        ],
+        [
+          "tau",
+          0.4856
+        ],
+        [
+          "trulicity",
+          0.45
+        ]
+      ]
+    },
+    {
+      "type": "false negative (miss predicted as beat)",
+      "call_id": "2169258",
+      "words": 6776,
+      "opening": "Analysts: Good morning, everybody. I'm Chris Schott at JPMorgan. And it's my pleasure to be hosting a fireside",
+      "top_terms": [
+        [
+          "tau",
+          0.6541
+        ],
+        [
+          "glp",
+          0.5819
+        ],
+        [
+          "amyloid",
+          0.5679
+        ],
+        [
+          "obesity",
+          0.5582
+        ],
+        [
+          "alzheimer",
+          0.5495
+        ],
+        [
+          "trulicity",
+          0.5432
+        ]
+      ]
+    },
+    {
+      "type": "false negative (miss predicted as beat)",
+      "call_id": "2416659",
+      "words": 11197,
+      "opening": "Operator: Hello, and welcome to the ResMed First Quarter Fiscal 2022 Earnings Conference Call and Webcast. [Operator Instructions]",
+      "top_terms": [
+        [
+          "resmed",
+          0.7802
+        ],
+        [
+          "mick",
+          0.6298
+        ],
+        [
+          "apnea",
+          0.5488
+        ],
+        [
+          "masks",
+          0.5338
+        ],
+        [
+          "mask",
+          0.509
+        ],
+        [
+          "brightree",
+          0.4533
+        ]
+      ]
+    },
+    {
+      "type": "false positive (beat predicted as miss)",
+      "call_id": "2364760",
+      "words": 5752,
+      "opening": "Operator: Good day, and thank you for standing by. Welcome to the Targa Resources Corp. Second Quarter 2021",
+      "top_terms": [
+        [
+          "targa",
+          -1.5501
+        ],
+        [
+          "devco",
+          -1.0628
+        ],
+        [
+          "spiro",
+          -0.7218
+        ],
+        [
+          "shneur",
+          -0.705
+        ],
+        [
+          "tristan",
+          -0.5883
+        ],
+        [
+          "inlet",
+          -0.5874
+        ]
+      ]
+    },
+    {
+      "type": "false positive (beat predicted as miss)",
+      "call_id": "2346358",
+      "words": 8963,
+      "opening": "Operator: Good afternoon, and welcome to the Alcoa Corporation Second Quarter 2021 Earnings Presentation and Conference Call. [Operator",
+      "top_terms": [
+        [
+          "smelting",
+          -0.734
+        ],
+        [
+          "quebec",
+          -0.5892
+        ],
+        [
+          "bauxite",
+          -0.4449
+        ],
+        [
+          "alumina",
+          -0.3631
+        ],
+        [
+          "smelter",
+          -0.2708
+        ],
+        [
+          "smelters",
+          -0.2567
+        ]
+      ]
+    },
+    {
+      "type": "false positive (beat predicted as miss)",
+      "call_id": "2349441",
+      "words": 10476,
+      "opening": "Operator: Ladies and gentlemen, thank you for standing by. Welcome to the Freeport-McMoRan Second Quarter Conference Call. [Operator",
+      "top_terms": [
+        [
+          "smelting",
+          -0.5186
+        ],
+        [
+          "tonnes",
+          -0.3115
+        ],
+        [
+          "cerro",
+          -0.2623
+        ],
+        [
+          "smelter",
+          -0.2551
+        ],
+        [
+          "pt",
+          -0.2108
+        ],
+        [
+          "verde",
+          -0.1641
+        ]
+      ]
+    },
+    {
+      "type": "false positive (beat predicted as miss)",
+      "call_id": "2423782",
+      "words": 9188,
+      "opening": "Operator: Good afternoon, and welcome to the MGM Resorts International Third Quarter 2021 Earnings Conference Call. Joining the",
+      "top_terms": [
+        [
+          "mgp",
+          -0.8296
+        ],
+        [
+          "mgm",
+          -0.6412
+        ],
+        [
+          "hornbuckle",
+          -0.5924
+        ],
+        [
+          "mandalay",
+          -0.4457
+        ],
+        [
+          "macau",
+          -0.3469
+        ],
+        [
+          "resorts",
+          -0.2975
+        ]
+      ]
+    }
+  ],
+  "length_cut_points_words": [
+    8126.0,
+    9198.0
+  ],
+  "length_groups": [
+    {
+      "group": "short",
+      "calls": 355,
+      "misses": 51,
+      "ap_negative": 0.314144723228446,
+      "macro_f1": 0.5671365166073258,
+      "recall_negative": 0.2549019607843137
+    },
+    {
+      "group": "medium",
+      "calls": 318,
+      "misses": 27,
+      "ap_negative": 0.19488893687802833,
+      "macro_f1": 0.5591664204713315,
+      "recall_negative": 0.3333333333333333
+    },
+    {
+      "group": "long",
+      "calls": 390,
+      "misses": 43,
+      "ap_negative": 0.1283759545072678,
+      "macro_f1": 0.5145601229350749,
+      "recall_negative": 0.16279069767441862
+    }
+  ]
+}
