@@ -11,8 +11,7 @@ CS 74 final project (Applied ML track) by Aditya, AJ and Eric.
 | File | What it is |
 |---|---|
 | `project.ipynb` | **Start here.** The full analysis with explanations, tables and figures |
-| `helpers.py` | Functions shared by the notebook and the demo |
-| `app.py` | Streamlit demo: paste a transcript, see the prediction and the words behind it |
+| `helpers.py` | Functions the notebook uses for loading data, text processing and building models |
 | `results/` | Tables and figures saved by the notebook |
 
 ## How to run
@@ -22,10 +21,6 @@ pip install -r requirements.txt
 ```
 
 Then run all cells of `project.ipynb` which takes about 6 minutes. The data downloads automatically. The first run also scores every transcript chunk with FinBERT, which takes about 2 hours 45 minutes and is saved to `data/` for later runs.
-
-```bash
-streamlit run app.py
-```
 
 ## Data split
 

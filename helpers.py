@@ -1,4 +1,4 @@
-"""Functions shared by project.ipynb and the Streamlit demo (app.py).
+"""Functions used by project.ipynb.
 
 Loading the data, splitting transcripts into sections, text processing, and
 building the TF-IDF models. All analysis lives in project.ipynb.

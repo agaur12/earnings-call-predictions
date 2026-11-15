@@ -6,6 +6,5 @@ matplotlib
 tqdm
 requests
 jupyter
-streamlit
 torch
 transformers
