@@ -1,8 +1,8 @@
 {
   "winner": "TF-IDF + naive Bayes",
   "test_macro_f1_gain_vs_majority_ci95": [
-    0.041677645014471985,
-    0.11438704935287079
+    0.04167764501447198,
+    0.1143870493528708
   ],
   "val_ap_negative_bootstrap_sd": 0.0319999158796178,
   "top_terms_toward_miss": [
